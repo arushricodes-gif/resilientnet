@@ -1,0 +1,17 @@
+[
+  {"id": "HUB-00", "name": "Mumbai Port",    "type": "port",      "lat": 18.95, "lng": 72.85, "capacity": 5000, "reliability": 0.87},
+  {"id": "HUB-01", "name": "JNPT",           "type": "port",      "lat": 18.95, "lng": 72.95, "capacity": 5000, "reliability": 0.92},
+  {"id": "HUB-02", "name": "Chennai Port",   "type": "port",      "lat": 13.09, "lng": 80.30, "capacity": 4500, "reliability": 0.85},
+  {"id": "HUB-03", "name": "Kolkata Port",   "type": "port",      "lat": 22.54, "lng": 88.33, "capacity": 4000, "reliability": 0.82},
+  {"id": "HUB-04", "name": "Delhi ICD",      "type": "icd",       "lat": 28.61, "lng": 77.23, "capacity": 1500, "reliability": 0.90},
+  {"id": "HUB-05", "name": "Bengaluru DC",   "type": "warehouse", "lat": 12.97, "lng": 77.59, "capacity": 1000, "reliability": 0.94},
+  {"id": "HUB-06", "name": "Pune Hub",       "type": "warehouse", "lat": 18.52, "lng": 73.85, "capacity": 1000, "reliability": 0.91},
+  {"id": "HUB-07", "name": "Hyderabad DC",   "type": "warehouse", "lat": 17.39, "lng": 78.49, "capacity": 1000, "reliability": 0.89},
+  {"id": "HUB-08", "name": "Ahmedabad Hub",  "type": "warehouse", "lat": 23.03, "lng": 72.58, "capacity": 1000, "reliability": 0.88},
+  {"id": "HUB-09", "name": "Singapore",      "type": "port",      "lat":  1.27, "lng": 103.85,"capacity": 8000, "reliability": 0.96},
+  {"id": "HUB-10", "name": "Jebel Ali",      "type": "port",      "lat": 24.98, "lng":  55.06,"capacity": 7000, "reliability": 0.93},
+  {"id": "HUB-11", "name": "Rotterdam",      "type": "port",      "lat": 51.95, "lng":   4.14,"capacity": 9000, "reliability": 0.97},
+  {"id": "HUB-12", "name": "Delhi Air",      "type": "airport",   "lat": 28.57, "lng":  77.10,"capacity": 2000, "reliability": 0.93},
+  {"id": "HUB-13", "name": "Mumbai Air",     "type": "airport",   "lat": 19.09, "lng":  72.87,"capacity": 2000, "reliability": 0.91},
+  {"id": "HUB-14", "name": "Frankfurt Air",  "type": "airport",   "lat": 50.04, "lng":   8.56,"capacity": 2500, "reliability": 0.95}
+]

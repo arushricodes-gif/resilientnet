@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+pubspec.lock
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio
+android/
+ios/
+macos/
+linux/
+windows/
+
+# Web
+web/
+
+# Test
+coverage/
+
+# Firebase — keep these OUT of git
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+.firebaserc
+
+# Environment files — NEVER commit API keys
+.env
+.env.local
+*.key
+secrets/
+
+# Python backend
+**/venv/
+**/__pycache__/
+**/.env
+*.pyc
+
+# Keep the trained model file (we WANT this in git)
+!resilientnet_backend/models/stgcn_improved.pt
+!resilientnet/models/stgcn_trained.pt
+!resilientnet/models/stgcn_improved.pt

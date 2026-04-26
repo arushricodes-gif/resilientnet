@@ -1,0 +1,19 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+numpy
+networkx==3.2.1
+google-generativeai==0.3.2
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Real-time Firebase integration
+firebase-admin==6.4.0
+
+# NewsAPI client (optional — poller works without it using simulated headlines)
+newsapi-python==0.2.7
+
+# GNN dependencies — optional. If these fail to install,
+# the backend still runs but /predict_cascade_gnn returns 503.
+torch
+torch-geometric
