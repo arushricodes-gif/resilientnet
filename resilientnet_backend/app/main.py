@@ -62,7 +62,9 @@ async def startup_event():
 # CORS — allow Flutter web + Cloud Functions to call us
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],          # lock down in production
+    allow_origins=["http://localhost:*",
+    "https://resilientnet.web.app",
+    "https://resilientnet.firebaseapp.com",],          # lock down in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
